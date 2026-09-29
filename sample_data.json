@@ -1,0 +1,21 @@
+{
+  "project": "AI Personalization Evaluation",
+  "evaluator": "John Sakwa",
+  "dimensions": ["Grounding", "Integration", "Helpfulness"],
+  "scoring_scale": {
+    "min": 1,
+    "max": 5
+  },
+  "evaluations": [
+    {
+      "id": "eval_001",
+      "prompt": "Help me plan a weekend trip.",
+      "context_sources": ["search", "gmail", "youtube", "photos"],
+      "scores": {
+        "grounding": null,
+        "integration": null,
+        "helpfulness": null
+      }
+    }
+  ]
+}
